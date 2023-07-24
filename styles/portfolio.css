@@ -116,11 +116,12 @@ main{
 }
 .box-content{
     display: flex;
+    gap: 50px;
 }
 .box-info {
     width: 163px;
     box-shadow: 5px 10px 10px rgb(208, 206, 206);
-    margin-right: 60px;
+    /* margin-right: 60px; */
     padding: 31px;
   }
   .box-content {
@@ -187,6 +188,9 @@ main{
 /* footer section */
 
 footer{
+    background-image: url('/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
     display: flex;
     justify-content: space-around;
     margin-top: 200px;
