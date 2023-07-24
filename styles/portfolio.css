@@ -6,7 +6,16 @@
 .text-primary{
     color: #FD6E0A;
 }
-
+.btn-contact {
+    height: 50px;
+    background-color: transparent;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 15px;
+    border: 1px solid #fd6e0a;
+    color: #fd6e0a;
+    padding: 15px 30px;
+}
 .btn-primary{
     height: 50px;
     border-radius: 5px;
