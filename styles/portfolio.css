@@ -84,6 +84,7 @@ main{
     font-weight: 600;
     font-size: 30px;
     margin-bottom: 20px;
+    text-align: center;
 }
 .section-dec{
     color: #757575;
@@ -102,4 +103,118 @@ main{
 }
 .info-dec{
     font-size: 18px;
+}
+
+/* what I do section */
+.what-I-do{
+    padding: 130px 155px;
+    text-align: center;
+}
+
+.what-i-do-box{
+    max-width: 1140px;
+}
+.box-content{
+    display: flex;
+}
+.box-info {
+    width: 163px;
+    box-shadow: 5px 10px 10px rgb(208, 206, 206);
+    margin-right: 60px;
+    padding: 31px;
+  }
+  .box-content {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .box-info img {
+    margin-bottom: 20px;
+  }
+  .box-info h3{
+    margin-bottom: 20px;
+  }
+  .box-info p{
+    color: #757575;
+  }
+
+  /* resume section */
+
+.my-resume{
+    margin-top: 150px;
+}
+.info{
+    margin-top: 100px;
+}
+.info-details{
+    margin-bottom: 50px;
+}
+.info-h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #474747;
+}
+.info-h4{
+    font-size: 20px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.info-h5{
+    font-size: 16px;
+    color: #b2b2b2;
+    margin-bottom: 15px;
+}
+.info-p{
+    color: #757575;
+    font-size: 13px;
+    border-bottom: 1.5px solid #b2b2b2;
+    padding-bottom: 20px;
+}
+.resume-btn {
+    text-align: center;
+}
+.first-2{
+    display: flex;
+    justify-content: space-around;
+}
+.second-2{
+    display: flex;
+    justify-content: space-around;
+}
+.last-2{
+    display: flex;
+    justify-content: space-around;
+}
+/* footer section */
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+    background-color: #fff8f3;
+    padding: 150px 0;
+}
+.let-h3 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.let-connect p {
+    width: 530px;
+    margin-bottom: 25px;
+}
+.let-icon img {
+    margin-right: 15px;
+}
+form{
+    margin-bottom: 10px;
+}
+form input {
+    display: block;
+    border: none;
+    padding: 15px 140px 15px 10px;
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+form textarea {
+    border: none;
+    padding: 15px 87px 0px 10px;
 }
